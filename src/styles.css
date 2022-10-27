@@ -1,0 +1,13 @@
+.tableClassName {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px
+}
+
+.tableBody {
+  background-color: #009879
+  color: #ffffff
+  text-align: left;
+  font-weight: bold;
+}
