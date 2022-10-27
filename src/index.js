@@ -6,9 +6,9 @@ export const JSONToHTMLTable = (props) => {
   return (
     <div className={wrapperClassName}>
       <table className={tableClassName}>
-        <tbody>
+        <tbody className={tableBody}>
           {Object.keys(data).map((k) => (
-            <tr key={k}>
+            <tr key={k} className={tableRow}>
               {!Array.isArray(data)
                 && <td>{k.replace(/_/g, ' ')}</td>}
               {(() => {
