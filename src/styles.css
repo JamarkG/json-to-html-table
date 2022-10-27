@@ -5,9 +5,18 @@
   min-width: 400px
 }
 
-.tableBody {
+.tableBody thead tr {
   background-color: #009879
   color: #ffffff
   text-align: left;
   font-weight: bold;
+}
+
+.tableBody tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+
+.tableBody th td {
+  padding: 12px 15px;
 }
